@@ -1,5 +1,8 @@
 <?php 
 
+ //Déclaration de la session
+ // c'est obligatoire de la déclarer au tout début de notre site
+session_start();
 try {
     
     $type_bdd = "mysql";
